@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> WORLD RALLY CHAMPIONSHIP </title>
+</head>
+	<body>
+	<h1> WORLD RALLY CHAMPIONSHIP</h1>
+	<table width="80%"> 
+	El Campeonato del Mundo de Rallyes (WRC) es una serie de rally organizada por la FIA, que culmina con un piloto campeón, copiloto y fabricante. El campeonato mundial de pilotos y el campeonato mundial de fabricantes son campeonatos separados, pero basados ​​en el mismo sistema de puntos.</h1>
+		
+		<img src = "wrc.jpg" width="500" height="600"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</table>
+</body>
