@@ -17,6 +17,8 @@ $mes = [
 'domingo',
 
 ];
+if(!isset($_GET['n_mes']))
+	$_GET['n_mes']= 1;
 
 ?>
 <form>
@@ -24,7 +26,7 @@ $mes = [
 
 <?php
 $txt='<select name="n_mes">';
-for ($i=1; $i<= 12; $i++)
+for ($i=1; $i<= 7; $i++)
 $txt.='<option>'.$i.'</option>';
 $txt.='</select>';
 echo $txt;
@@ -34,17 +36,8 @@ echo $txt;
 echo $mes[$_GET["n_mes"]];
 ?>
 
-<div id="x"> </div>
-
-<div id="r"> </div>
-
 <center><h1>ejercicio 2 </h1></center>
 <h2>Crea un array con el nombre de tus compañeros, en qué puesto se sienta y reubícalos por su nombre de pila mostrando ambas tablas</h2>
-<form>
-<button onclick="seleccionar()">seleccionar </button>
-
-
-</form>
 <?php
 
 // arrays
